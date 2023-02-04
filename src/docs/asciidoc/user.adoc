@@ -1,0 +1,17 @@
+ifndef::snippets[]
+:snippets: build/generated-snippets
+endif::[]
+= Rest Docs User API Document
+:doctype: book
+:toc: left
+:sectnums:
+:toclevels: 3
+:source-highlighter: highlightjs
+:operation-http-request-title: Example Request
+:operation-request-fields-title: Request
+:operation-http-response-title: Example Response
+:operation-response-fields-title: Response
+
+
+== 회원가입
+operation::user-sign-with[snippets='http-request,request-fields,http-response,response-fields']
